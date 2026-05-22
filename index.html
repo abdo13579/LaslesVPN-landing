@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaslesVPN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="./assets/Logo.svg" alt="LaslesVPN Logo">
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#help" class="nav-link">Help</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="sign-in">Sign In</a>
+                <a href="#" class="btn btn-outline sign-up">Sign Up</a>
+            </div>
+            <label for="menu-toggle" class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container" id="about">
+            <div class="hero-content">
+                <h1>Want anything to be <br> easy with <strong>LaslesVPN.</strong></h1>
+                <p>Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong> discover interesting features from us.</p>
+                <a href="#" class="btn btn-primary get-started-btn">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/Illustration1.svg" alt="LaslesVPN Hero Illustration">
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats container">
+            <div class="stats-card shadow-gray">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3>90+</h3>
+                        <p>Users</p>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3>30+</h3>
+                        <p>Locations</p>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 12H2M5.45 5.11L2 12V22H22V12L18.55 5.11C18.3844 4.77679 18.1292 4.49637 17.813 4.30028C17.4967 4.10419 17.1321 4.0002 16.76 4H7.24C6.86792 4.0002 6.50326 4.10419 6.18699 4.30028C5.87071 4.49637 5.61558 4.77679 5.45 5.11Z" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 16H6.01M10 16H14" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3>50+</h3>
+                        <p>Servers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features container" id="features">
+            <div class="features-image">
+                <img src="./assets/Illustration2.svg" alt="LaslesVPN Features">
+            </div>
+            <div class="features-content">
+                <h2>We Provide Many Features You Can Use</h2>
+                <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+                <ul class="features-list">
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#2FAB73"/>
+                            <path d="M17 8L10 15L7 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Powerful online protection.
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#2FAB73"/>
+                            <path d="M17 8L10 15L7 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Internet without borders.
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#2FAB73"/>
+                            <path d="M17 8L10 15L7 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Supercharged VPN.
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#2FAB73"/>
+                            <path d="M17 8L10 15L7 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        No specific time limits.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Choose Your Plan</h2>
+                    <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+                </div>
+                
+                <div class="pricing-cards">
+                    <!-- Free Plan -->
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <img src="./assets/Illustration3.svg" alt="Free Plan" width="145" height="165" class="plan-image" style="object-fit: contain;">
+                            <h3>Free Plan</h3>
+                        </div>
+                        <ul class="plan-features">
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Unlimited Bandwidth</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Encrypted Connection</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> No Traffic Logs</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Works on All Devices</li>
+                        </ul>
+                        <div class="card-footer">
+                            <h3 class="price">Free</h3>
+                            <a href="#" class="btn btn-outline-primary btn-round">Select</a>
+                        </div>
+                    </div>
+
+                    <!-- Standard Plan -->
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <img src="./assets/Illustration3.svg" alt="Standard Plan" width="145" height="165" class="plan-image" style="object-fit: contain;">
+                            <h3>Standard Plan</h3>
+                        </div>
+                        <ul class="plan-features">
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Unlimited Bandwidth</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Encrypted Connection</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Yes Traffic Logs</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Works on All Devices</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Connect Anyware</li>
+                        </ul>
+                        <div class="card-footer">
+                            <h3 class="price">$9 <span>/ mo</span></h3>
+                            <a href="#" class="btn btn-outline-primary btn-round">Select</a>
+                        </div>
+                    </div>
+
+                    <!-- Premium Plan -->
+                    <div class="pricing-card featured">
+                        <div class="card-header">
+                            <img src="./assets/Illustration3.svg" alt="Premium Plan" width="145" height="165" class="plan-image" style="object-fit: contain;">
+                            <h3>Premium Plan</h3>
+                        </div>
+                        <ul class="plan-features">
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Unlimited Bandwidth</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Encrypted Connection</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Yes Traffic Logs</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Works on All Devices</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Connect Anyware</li>
+                            <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="#2BAE66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Get New Features</li>
+                        </ul>
+                        <div class="card-footer">
+                            <h3 class="price">$12 <span>/ mo</span></h3>
+                            <a href="#" class="btn btn-primary btn-round shadow-red">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Global Network Section -->
+            <div class="global-network container">
+                <div class="section-header">
+                    <h2>Huge Global Network of Fast VPN</h2>
+                    <p>See <strong>LaslesVPN</strong> everywhere to make it easier for you when you move locations.</p>
+                </div>
+                
+                <div class="map-container">
+                    <img src="./assets/map.svg" alt="Global Network Map" class="map-image">
+                </div>
+
+                <div class="sponsors">
+                    <img src="./assets/netflix.svg" alt="Netflix">
+                    <img src="./assets/reddit.svg" alt="Reddit">
+                    <img src="./assets/discord.svg" alt="Discord">
+                    <img src="./assets/spotify.svg" alt="Spotify">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Trusted by Thousands of Happy Customer</h2>
+                    <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+                </div>
+
+                <div class="testimonials-slider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-header">
+                            <div class="user-info">
+                                <img src="https://i.pravatar.cc/150?img=11" alt="Viezh Robert" class="user-avatar">
+                                <div class="user-details">
+                                    <h4>Viezh Robert</h4>
+                                    <p>Warsaw, Poland</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span>4.5</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.99992 12.0001L3.29792 14.8068L4.54259 9.47545L0.415253 5.86479L5.86192 5.40279L7.99992 0.333458L10.1379 5.40279L15.5846 5.86479L11.4573 9.47545L12.7019 14.8068L7.99992 12.0001Z" fill="#FEA250"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="user-info">
+                                <img src="https://i.pravatar.cc/150?img=9" alt="Yessica Christy" class="user-avatar">
+                                <div class="user-details">
+                                    <h4>Yessica Christy</h4>
+                                    <p>Shanxi, China</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span>4.5</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.99992 12.0001L3.29792 14.8068L4.54259 9.47545L0.415253 5.86479L5.86192 5.40279L7.99992 0.333458L10.1379 5.40279L15.5846 5.86479L11.4573 9.47545L12.7019 14.8068L7.99992 12.0001Z" fill="#FEA250"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"I like it because I like to travel far and still can connect with high speed."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="user-info">
+                                <img src="https://i.pravatar.cc/150?img=12" alt="Kim Young Jou" class="user-avatar">
+                                <div class="user-details">
+                                    <h4>Kim Young Jou</h4>
+                                    <p>Seoul, South Korea</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span>4.5</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.99992 12.0001L3.29792 14.8068L4.54259 9.47545L0.415253 5.86479L5.86192 5.40279L7.99992 0.333458L10.1379 5.40279L15.5846 5.86479L11.4573 9.47545L12.7019 14.8068L7.99992 12.0001Z" fill="#FEA250"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"This is very unusual for my business that currently requires a virtual private network that has high security."</p>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <div class="slider-arrows">
+                        <button class="arrow-btn prev-btn" aria-label="Previous">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 12H5" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 19L5 12L12 5" stroke="#F53838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="arrow-btn next-btn" aria-label="Next">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe CTA Section -->
+        <section class="subscribe-cta container">
+            <div class="cta-card shadow-gray">
+                <div class="cta-content">
+                    <h2>Subscribe Now for <br> Get Special Features!</h2>
+                    <p>Let's subscribe with us and find the fun.</p>
+                </div>
+                <div class="cta-action">
+                    <a href="#" class="btn btn-primary shadow-red btn-large">Subscribe Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="../assets/Logo.svg" alt="LaslesVPN Logo">
+                </a>
+                <p><strong>LaslesVPN</strong> is a private virtual network that has unique features and has high security.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="17" fill="white"/>
+                            <path d="M22 10H19C17.6739 10 16.4021 10.5268 15.4645 11.4645C14.5268 12.4021 14 13.6739 14 15V18H11V22H14V30H18V22H21L22 18H18V15C18 14.7348 18.1054 14.4804 18.2929 14.2929C18.4804 14.1054 18.7348 14 19 14H22V10Z" fill="#F53838"/>
+                            <circle cx="17" cy="17" r="16.5" stroke="#F53838"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="17" fill="white"/>
+                            <path d="M25 11C24.0424 11.6755 22.9821 12.1921 21.86 12.53C21.2577 11.8375 20.4573 11.3467 19.567 11.124C18.6767 10.9012 17.7395 10.957 16.8821 11.2845C16.0247 11.612 15.2884 12.1963 14.773 12.9638C14.2575 13.7312 13.9877 14.645 14 15.58V16.58C12.2426 16.6257 10.5013 16.1958 8.93101 15.3297C7.36074 14.4637 6.01032 13.1882 5 11.62C5 11.62 2.5 16.91 9 20.87C7.39719 21.9749 5.47702 22.5323 3.5 22.48C6.69833 24.4172 10.3582 25.4397 14.11 25.43C20.66 25.43 24 19.98 24 15.37C24 15.21 24 15.05 23.98 14.89C24.9972 13.9255 25.7088 12.7001 26 11.33L25 11Z" fill="#F53838"/>
+                            <circle cx="17" cy="17" r="16.5" stroke="#F53838"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="17" fill="white"/>
+                            <path d="M20 16.0001C21.5913 16.0001 23.1174 16.6322 24.2426 17.7574C25.3679 18.8826 26 20.4087 26 22.0001V29.0001H22V22.0001C22 21.4696 21.7893 20.9609 21.4142 20.5858C21.0391 20.2108 20.5304 20.0001 20 20.0001C19.4696 20.0001 18.9609 20.2108 18.5858 20.5858C18.2107 20.9609 18 21.4696 18 22.0001V29.0001H14V22.0001C14 20.4087 14.6321 18.8826 15.7574 17.7574C16.8826 16.6322 18.4087 16.0001 20 16.0001V16.0001Z" fill="#F53838"/>
+                            <path d="M10 17.0001H6V29.0001H10V17.0001Z" fill="#F53838"/>
+                            <path d="M8 14.0001C9.10457 14.0001 10 13.1046 10 12.0001C10 10.8955 9.10457 10.0001 8 10.0001C6.89543 10.0001 6 10.8955 6 12.0001C6 13.1046 6.89543 14.0001 8 14.0001Z" fill="#F53838"/>
+                            <circle cx="17" cy="17" r="16.5" stroke="#F53838"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="copyright">&copy;2020LaslesVPN</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Server</a></li>
+                        <li><a href="#">Countries</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Engage</h4>
+                    <ul>
+                        <li><a href="#">LaslesVPN ? </a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Earn Money</h4>
+                    <ul>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Become Partner</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
