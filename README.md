@@ -1,25 +1,29 @@
 # LaslesVPN Landing Page
 
-A responsive landing page for LaslesVPN, a virtual private network service. Built with pure HTML and CSS.
+A responsive landing page for **LaslesVPN** — a virtual private network service. Built with pure HTML and CSS.
 
-## Features
+## Sections
 
-- Responsive design (mobile-friendly with hamburger menu)
-- Hero section with call-to-action
-- Statistics showcase (users, locations, servers)
-- Features list
-- Pricing plans (Free, Standard, Premium)
-- Global network map with sponsor logos
-- Customer testimonials slider
-- Newsletter subscription CTA
-- Footer with social links and site navigation
+- **Header** — Navigation with sign-in/sign-up actions
+- **Hero** — Call-to-action with primary messaging
+- **Stats** — User, location, and server counts
+- **Features** — Key VPN benefits
+- **Pricing** — Free, Standard, and Premium plans
+- **Global Network** — World map and sponsor logos
+- **Testimonials** — Customer reviews slider
+- **Subscribe CTA** — Newsletter subscription prompt
+- **Footer** — Product links, social icons, and copyright
 
 ## Tech Stack
 
 - HTML5
-- CSS3 (Flexbox, CSS Variables, Media Queries)
+- CSS3 (custom properties, flexbox, responsive grid)
 - Google Fonts (Rubik)
 
 ## Usage
 
-Open `index.html` in any modern browser.
+Open `index.html` in any modern browser. No build tools or dependencies required.
+
+## Responsive
+
+Designed with mobile-first breakpoints at 768px and 1024px.
